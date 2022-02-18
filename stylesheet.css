@@ -1,0 +1,154 @@
+/* Ignore following classes */
+
+* {
+    font-family: "Montserrat", sans-serif;
+    background-color: #eeeeee;
+  }
+  
+  #intro {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .insideborder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .para {
+    font-weight: 300;
+    margin-left: 10px;
+  }
+  
+  h2 {
+    font-size: medium;
+    font-weight: 200;
+  }
+  
+  /* Classes that you might find useful */
+  /* Note* These classes do not cover every possibloe case to build you flags, you will have to continue to add your own*/
+  
+
+  .flag {
+    height: 300px;
+    width: 500px;
+    border-style: solid;
+    margin-bottom: 5rem;
+  }
+  .en{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+  }
+  
+.square_lines{
+  display: flex;
+  flex-direction: row;
+  height: 40%;
+}
+.square_middle_line{
+  height: 20%;
+}
+
+.middle_white{
+  width: 20%;
+}
+
+.corner{
+  width: 40%
+}
+  .horiz {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .upper{
+  display: flex;
+  flex-direction: row;
+  height: 55%;
+}
+
+.lines {
+  display:flex;
+  flex-direction:column;
+  width: 67%;
+}
+.small_lines{
+  height: 20%;
+}
+  
+  .twovert {
+    height: 50%;
+  }
+  .upper_left{
+  display: flex;
+  flex-direction: row;
+  height: 22%;
+}
+  .threevert {
+    height: 33.3%;
+  }
+  
+  .threehoriz {
+    width: 33.3%;
+  }
+  
+  .skinny {
+    height: 16.8%;
+  }
+
+  .very_skinny{
+    height: 11.2%;
+  }
+  
+  .fat {
+    height: 30%;
+  }
+  
+  .circle {
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+    position: relative;
+    left:10px;
+    top: 85px;
+  }
+  
+  /* Colors/ Feel free to add your own! */
+  
+  .red {
+    background-color: red;
+  }
+  
+  .orange {
+    background-color: orange;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .lightblue {
+    background-color: lightblue;
+  }
+  
+  .purple {
+    background-color: purple;
+  }
+  
+  .white {
+    background-color: #fff;
+  }
+
+
+  
